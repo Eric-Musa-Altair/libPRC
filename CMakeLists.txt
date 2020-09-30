@@ -20,6 +20,8 @@ set( CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/lib )
 #
 # Required ZLIB dependency.
 # Set ZLIB_ROOT (env or cmake) as hint, if necessary.
+set( ZLIB_INCLUDE_DIR "C:\\Users\\emusa\\Documents\\zlib\\zlib-1.2.11\\build01" )
+set( ZLIB_LIBRARY "C:\\Users\\emusa\\Documents\\zlib\\zlib-1.2.11\\build01" )
 find_package( ZLIB REQUIRED )
 
 #
