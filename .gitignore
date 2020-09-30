@@ -34,5 +34,8 @@ bld
 # Local History for Visual Studio Code
 .history/
 
+# test --> important files get moved to "genprc/"
+test/
+
 # builds
 build**/
